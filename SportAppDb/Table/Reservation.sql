@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Reservation]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	[UserId] INT NOT NULL,
+	[CourtId] INT NOT NULL,
+	[TotalPrice] INT NOT NULL,
+	[CreatedAt] DATETIME NOT NULL,
+	[DateModify] DATETIME NOT NULL
+)

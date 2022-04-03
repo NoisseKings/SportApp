@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>WebUI</title>
+  <base href="/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" sizes="76x76" href="~/ClientApp/src/app/share/assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="~/ClientApp/src/app/share/assets/img/favicon.png">
+  <!--     Fonts and icons     https://buttons.github.io/buttons.js add this-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  <!-- Nucleo Icons -->
+  <!--<link href="~/ClientApp/src/app/share/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="~/ClientApp/src/app/share/css/nucleo-svg.css" rel="stylesheet" />-->
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <!--<link href="~/ClientApp/src/app/share/css/nucleo-svg.css" rel="styleshe-->
+  <!-- CSS Files -->
+  <!--<link id="pagestyle" href="~/ClientApp/src/app/share/css/soft-ui-dashboard.css?v=1.0.3" rel="stylesheet" />-->
+
+  <style>
+    .loading {
+      display: flex;
+      justify-content: center;
+    }
+
+    .loading--full-height{
+      align-items: center;
+      height:100%
+    }
+
+    .loading::after {
+      content: "";
+      width: 150px;
+      height: 150px;
+      border: 10px solid #dddddd;
+      border-top-color: #009579;
+      border-radius: 50%;
+      animation: loading 1s linear infinite;
+      margin-top: 25rem;
+    }
+
+    @keyframes loading {
+      to {
+        transform: rotate(1turn);
+      }
+    }
+  </style>
+</head>
+<body class="">
+  <app-root>
+  <div class="loading loading--full-height"></div></app-root>
+</body>
+</html>

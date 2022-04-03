@@ -1,0 +1,32 @@
+﻿CREATE TABLE [dbo].[Token](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[UserId] [int] NULL,
+	[CourtId] [int] NULL,
+	[AccountType] [nvarchar](max) NOT NULL,
+	[Title] [nvarchar](max) NOT NULL,
+	[CreateAt] [datetime] NOT NULL,
+	[ModifyAT] [datetime] NOT NULL,
+	[Expire] [datetime] NULL,
+ CONSTRAINT [PK__Token__3214EC07223F9DE1] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Token]  WITH CHECK ADD  CONSTRAINT [FK_Token_Court] FOREIGN KEY([CourtId])
+REFERENCES [dbo].[Court] ([Id])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+ALTER TABLE [dbo].[Token] CHECK CONSTRAINT [FK_Token_Court]
+GO
+
+ALTER TABLE [dbo].[Token]  WITH CHECK ADD  CONSTRAINT [FK_UserToken_User] FOREIGN KEY([UserId])
+REFERENCES [dbo].[User] ([Id])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+ALTER TABLE [dbo].[Token] CHECK CONSTRAINT [FK_UserToken_User]

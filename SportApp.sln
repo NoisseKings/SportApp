@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{02842FE7-1EF7-412A-909A-BA76BD61CFA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{DF9C3FEB-10C6-47C9-91FA-49F0F7C9D6EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{50F7E096-1778-4A7E-9BA4-85F8E7228844}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{54A4BDD9-F644-431A-828F-6B9CCE49F7D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUI", "WebUI\WebUI.csproj", "{558FA23A-6BEF-4AF5-BA91-0C3E2F02EA39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{DFF047DE-69BC-4092-8C78-656FE4928E14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{1E5585FB-E707-4827-AA57-1E47F26069BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{B46F0A4C-4E59-49E0-A476-8C5043940FBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{DFD9A8AF-130A-4E06-9964-BBB7B3A92B21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{2E887AEF-7C3D-44E5-BF27-A8C83E9E1EE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Script", "Script", "{A9763BF7-414E-4806-B329-7AC66A6F1AD2}"
+	ProjectSection(SolutionItems) = preProject
+		ScriptDB.sql = ScriptDB.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{558FA23A-6BEF-4AF5-BA91-0C3E2F02EA39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558FA23A-6BEF-4AF5-BA91-0C3E2F02EA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558FA23A-6BEF-4AF5-BA91-0C3E2F02EA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558FA23A-6BEF-4AF5-BA91-0C3E2F02EA39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF047DE-69BC-4092-8C78-656FE4928E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF047DE-69BC-4092-8C78-656FE4928E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF047DE-69BC-4092-8C78-656FE4928E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF047DE-69BC-4092-8C78-656FE4928E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E5585FB-E707-4827-AA57-1E47F26069BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5585FB-E707-4827-AA57-1E47F26069BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5585FB-E707-4827-AA57-1E47F26069BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5585FB-E707-4827-AA57-1E47F26069BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46F0A4C-4E59-49E0-A476-8C5043940FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46F0A4C-4E59-49E0-A476-8C5043940FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46F0A4C-4E59-49E0-A476-8C5043940FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46F0A4C-4E59-49E0-A476-8C5043940FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD9A8AF-130A-4E06-9964-BBB7B3A92B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD9A8AF-130A-4E06-9964-BBB7B3A92B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD9A8AF-130A-4E06-9964-BBB7B3A92B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD9A8AF-130A-4E06-9964-BBB7B3A92B21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{558FA23A-6BEF-4AF5-BA91-0C3E2F02EA39} = {DF9C3FEB-10C6-47C9-91FA-49F0F7C9D6EC}
+		{DFF047DE-69BC-4092-8C78-656FE4928E14} = {02842FE7-1EF7-412A-909A-BA76BD61CFA0}
+		{1E5585FB-E707-4827-AA57-1E47F26069BD} = {02842FE7-1EF7-412A-909A-BA76BD61CFA0}
+		{B46F0A4C-4E59-49E0-A476-8C5043940FBF} = {50F7E096-1778-4A7E-9BA4-85F8E7228844}
+		{DFD9A8AF-130A-4E06-9964-BBB7B3A92B21} = {54A4BDD9-F644-431A-828F-6B9CCE49F7D9}
+		{A9763BF7-414E-4806-B329-7AC66A6F1AD2} = {2E887AEF-7C3D-44E5-BF27-A8C83E9E1EE3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E1FF077-6F40-4716-8364-956B325D6429}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/erpnoisse369
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Application\\Application.csproj
+		SccProjectTopLevelParentUniqueName1 = SportApp.sln
+		SccProjectName1 = Application
+		SccLocalPath1 = Application
+		SccProjectUniqueName2 = Domain\\Domain.csproj
+		SccProjectTopLevelParentUniqueName2 = SportApp.sln
+		SccProjectName2 = Domain
+		SccLocalPath2 = Domain
+		SccProjectUniqueName3 = Infrastructure\\Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName3 = SportApp.sln
+		SccProjectName3 = Infrastructure
+		SccLocalPath3 = Infrastructure
+		SccProjectUniqueName4 = Persistence\\Persistence.csproj
+		SccProjectTopLevelParentUniqueName4 = SportApp.sln
+		SccProjectName4 = Persistence
+		SccLocalPath4 = Persistence
+		SccProjectUniqueName5 = WebUI\\WebUI.csproj
+		SccProjectTopLevelParentUniqueName5 = SportApp.sln
+		SccProjectName5 = WebUI
+		SccLocalPath5 = WebUI
+	EndGlobalSection
+EndGlobal

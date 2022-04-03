@@ -1,0 +1,9 @@
+<body [ngClass]="{
+        'g-sidenav-show': currentUrl == '',
+        'bg-gray-100': currentUrl == ''            
+      }"
+      >
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</body>

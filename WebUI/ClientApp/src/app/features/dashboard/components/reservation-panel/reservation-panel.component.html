@@ -1,0 +1,40 @@
+<div class="container">
+  <form id="contact" (ngSubmit)="createReservation()">
+    <h3>Reservation Court</h3>
+    <h4>Contact us for custom quote</h4>
+    <fieldset>
+      <input name="startDate" type="datetime-local" id="meeting-time" name="meeting-time" value="" [(ngModel)]="reservation.startDate">
+    </fieldset>
+    <fieldset>
+      <input name="endDate" type="datetime-local" id="meeting-time" name="meeting-time" value="" (change)="CheckIfPeriodIsFree($event)">
+    </fieldset>
+    <fieldset>
+      <input name="numberOfPeople" placeholder="Number of people participating in the term" type="tel" tabindex="3" required [(ngModel)]="reservation.numberOfPeople">
+    </fieldset>
+    <fieldset>
+      <p>Please select is term public or private</p>
+      <input type="radio" id="privateTerm" name="isOpen" value="false" [(ngModel)]="reservation.isOpen" (change)="changeIsOpen($event)">
+      <label for="privateTerm">Private</label><br>
+      <input type="radio" id="publicTerm" name="isOpen" value="true" [(ngModel)]="reservation.isOpen" (change)="changeIsOpen($event)">
+      <label for="publicTerm">Public</label><br>
+    </fieldset>
+
+    <div *ngIf="periodFree == 1" style=" background-color: forestgreen; padding: 2%; color: white; margin-bottom: 5%;">
+      Period is free
+    </div>
+    <div *ngIf="periodFree == 2" style=" background-color: red; padding: 2%; color: white; margin-bottom: 5%;">
+      Period is not free, please choose another termin
+    </div>
+
+    <div *ngIf="periodCreate == 1" style=" background-color: forestgreen; padding: 2%; color: white; margin-bottom: 5%;">
+      Period is created
+    </div>
+    <div *ngIf="periodCreate == 2" style=" background-color: red; padding: 2%; color: white; margin-bottom: 5%;">
+      Period is not created, please contact us !!!
+    </div>
+
+    <fieldset>
+      <input name="submit" type="submit" id="contact-submit" value="Submit">
+    </fieldset>
+  </form>
+</div>

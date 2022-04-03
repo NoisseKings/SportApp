@@ -1,0 +1,15 @@
+G:\Nikola\Work\Projects\SportApp\Application\bin\Production\net5.0\Application.deps.json
+G:\Nikola\Work\Projects\SportApp\Application\bin\Production\net5.0\Application.dll
+G:\Nikola\Work\Projects\SportApp\Application\bin\Production\net5.0\Application.pdb
+G:\Nikola\Work\Projects\SportApp\Application\bin\Production\net5.0\Domain.dll
+G:\Nikola\Work\Projects\SportApp\Application\bin\Production\net5.0\Domain.pdb
+G:\Nikola\Work\Projects\SportApp\Application\obj\Production\net5.0\Application.csproj.AssemblyReference.cache
+G:\Nikola\Work\Projects\SportApp\Application\obj\Production\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\Nikola\Work\Projects\SportApp\Application\obj\Production\net5.0\Application.AssemblyInfoInputs.cache
+G:\Nikola\Work\Projects\SportApp\Application\obj\Production\net5.0\Application.AssemblyInfo.cs
+G:\Nikola\Work\Projects\SportApp\Application\obj\Production\net5.0\Application.csproj.CoreCompileInputs.cache
+G:\Nikola\Work\Projects\SportApp\Application\obj\Production\net5.0\Application.csproj.CopyComplete
+G:\Nikola\Work\Projects\SportApp\Application\obj\Production\net5.0\Application.dll
+G:\Nikola\Work\Projects\SportApp\Application\obj\Production\net5.0\refint\Application.dll
+G:\Nikola\Work\Projects\SportApp\Application\obj\Production\net5.0\Application.pdb
+G:\Nikola\Work\Projects\SportApp\Application\obj\Production\net5.0\ref\Application.dll

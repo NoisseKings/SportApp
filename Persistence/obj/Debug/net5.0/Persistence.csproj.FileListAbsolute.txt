@@ -1,0 +1,17 @@
+G:\Nikola\Work\Projects\SportApp\Persistence\bin\Debug\net5.0\Persistence.deps.json
+G:\Nikola\Work\Projects\SportApp\Persistence\bin\Debug\net5.0\Persistence.dll
+G:\Nikola\Work\Projects\SportApp\Persistence\bin\Debug\net5.0\Persistence.pdb
+G:\Nikola\Work\Projects\SportApp\Persistence\bin\Debug\net5.0\Application.dll
+G:\Nikola\Work\Projects\SportApp\Persistence\bin\Debug\net5.0\Domain.dll
+G:\Nikola\Work\Projects\SportApp\Persistence\bin\Debug\net5.0\Application.pdb
+G:\Nikola\Work\Projects\SportApp\Persistence\bin\Debug\net5.0\Domain.pdb
+G:\Nikola\Work\Projects\SportApp\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+G:\Nikola\Work\Projects\SportApp\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+G:\Nikola\Work\Projects\SportApp\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+G:\Nikola\Work\Projects\SportApp\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+G:\Nikola\Work\Projects\SportApp\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+G:\Nikola\Work\Projects\SportApp\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+G:\Nikola\Work\Projects\SportApp\Persistence\obj\Debug\net5.0\Persistence.dll
+G:\Nikola\Work\Projects\SportApp\Persistence\obj\Debug\net5.0\refint\Persistence.dll
+G:\Nikola\Work\Projects\SportApp\Persistence\obj\Debug\net5.0\Persistence.pdb
+G:\Nikola\Work\Projects\SportApp\Persistence\obj\Debug\net5.0\ref\Persistence.dll
